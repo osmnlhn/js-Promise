@@ -1,0 +1,27 @@
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    left: 0;
+    border: 1px solid #000;
+}
+
+.box.bigger{
+    width: 300px;
+    height: 300px;
+
+}
+
+.box.circle{
+    border-radius: 50px;
+    border: 2px solid red;
+}
+.box.move{
+    
+    transform: translateX(300px)
+
+}
+
+.box.colored{
+    background: purple;
+}
